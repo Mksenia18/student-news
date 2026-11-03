@@ -38,6 +38,9 @@ jobs:
         working-directory: frontend
         run: npm run lint
 
+      - name: Simulate CI failure
+        run: exit 1
+
   # ---------------------------------------------------------------- stage 1
   backend-test:
     name: Backend · unit tests
