@@ -312,3 +312,4 @@ BDD scenarios are documented in separate files:
 - [Frontend user scenarios (BDD)](docs/frontend-user-scenarios-bdd.md)
 
 Documentation test for GitHub Actions.
+Documentation-only test for GitHub Actions.
